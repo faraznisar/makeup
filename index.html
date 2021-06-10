@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=x, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 700px)" href="desktop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    .topMenu{
+        float:right;
+        color:goldenrod;
+        font-size: 30px;
+    }
+    .primaryColor{
+        color:goldenrod;
+    }
+    .secondaryColor{
+        color:rgb(241, 8, 151)
+    }
+    .backgroundSection1{
+        background: url('images/lady1.jpg') center/ cover ;
+        margin-top:30px;
+        min-height:250px;
+        box-shadow: inset 0 0 0 1000px rgba(255, 254, 254, 0.6);
+    }
+.circularImage{
+    border-radius:50%
+}
+.backgroundWorldOfSkin{
+    background: url('images/lady1.jpg') center/ cover ;
+    box-shadow: inset 0 0 0 1000px rgba(255, 254, 254, 0.6);
+    height:120px;
+    width:100%;
+}
+.bg1{
+    background: url('images/lady1.jpg') center/ cover ;
+    box-shadow: inset 0 0 0 1000px rgba(255, 254, 254, 0.6);
+    height:120px;
+    width:45%;
+    
+}
+.bg2{
+    background: url('images/lady1.jpg') center/ cover ;
+    box-shadow: inset 0 0 0 1000px rgba(255, 254, 254, 0.6);
+    height:120px;
+    width:45%;
+}
+.centeredText{
+    text-align:center
+}
+.bestOfBothWorlds{
+    box-shadow: inset 0 0 0 1000px rgba(255, 254, 254, 0.6);
+    background: url('images/lady1.jpg') center/ cover ;
+    min-height:500px
+}
+.beautifulHair{
+    box-shadow: inset 0 0 0 1000px rgba(255, 254, 254, 0.6);
+    background: url('images/selfie1.jpg') center/ cover ;
+    min-height:500px
+}
+body {
+    overflow-x: hidden;
+}
+.bridalBackground{
+    background: url('images/lady1.jpg') center/ cover ;
+    box-shadow: inset 0 0 0 1000px rgba(255, 254, 254, 0.6);
+    min-height:500px
+}
+.image-fade {
+    -webkit-mask-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,0));
+}
+</style>
+<body>
+     <nav class="navbar " role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item primaryColor title" href="https://bulma.io">
+      <!-- <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"> -->
+      Skin genius
+    </a>
+
+    <a role="button" class="navbar-burger topMenu mt-3" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <i class="fa fa-bars primaryColor" aria-hidden="true"></i>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu ">
+    <div class="navbar-start">
+      <a class="navbar-item">
+        Home
+      </a>
+
+      <a class="navbar-item">
+        Documentation
+      </a>
+
+      <!-- <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More
+        </a>
+
+        <div class="navbar-dropdown">
+          <a class="navbar-item">
+            About
+          </a>
+          <a class="navbar-item">
+            Jobs
+          </a>
+          <a class="navbar-item">
+            Contact
+          </a>
+          <hr class="navbar-divider">
+          <a class="navbar-item">
+            Report an issue
+          </a>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button is-primary">
+            <strong>Sign up</strong>
+          </a>
+          <a class="button is-light">
+            Log in
+          </a>
+        </div>
+      </div>
+    </div> -->
+  </div>
+</nav>
+    <!-- main section start -->
+<section class="section">
+<div class="columns ">
+    <div class="columns is-mobile">
+    <h1 class="title column primaryColor is-marginless" style="font-weight:400;font-size: 36.65px;min-width:200px">
+    Scientific Skin, Hair &amp; Personal Aesthetics
+    </h1>
+    
+    </div>
+    <div class="column is-marginless is-paddingless" style="max-width:200px">
+        <p>SkinGenious is home to select dermatologists and plastic surgeons. The best in India.</p>
+    </div>
+</div>
+<div class="tile backgroundSection1">
+    <div class="toTheLeft">
+<button class="button is-white is-rounded" style="border-color: goldenrod ">Book a Consult</button>
+<figure class="image is-128x128">
+    <img src="images/selfie1.jpg" alt="selfie" style="opacity:0.5" class="image is-128x128 is-rounded mt-4">
+</figure>
+<p>Online Consultation at</p>
+<p style='margin:auto'>10% discount</p>
+<button class="button is-white is-rounded is-normal pr-6 pl-6" style="border-color: pink;color:pink">Book Now</button>
+</div>
+</div>
+</section>
+<!-- main section end -->
+
+<!-- leading dertamologists section start -->
+<section class = "section padding">
+    <div class="title">
+    <p class=" primaryColor">Leading dermatologists and plastic surgeons, to solve your concerns</p>
+</div>
+<p>Hand picked, verified and trusted dermatologists and plastic surgeons. You have right to consult only the best</p>
+</section>
+<section class="section padding carouselCenter">
+    <div class="owl-carousel owl-theme image-fade">
+    <div class="item"><img src="images/lady1.jpg" style="height:300px ;width:300px; border-radius:50%" alt="" srcset="">
+    <p>During these hard times, we want to help you stay relaxed, calm, and focused. We'll be giving you free access to online classes and resources so you can maintain your yoga practice in the safety of your home.</p></div>
+    <div class="item"><img src="images/google.jpg" style="height:300px ;width:300px; border-radius:50%" alt="" srcset="">
+    <p>During these hard times, we want to help you stay relaxed, calm, and focused. We'll be giving you free access to online classes and resources so you can maintain your yoga practice in the safety of your home.</p></div>
+    <div class="item"><img src="images/selfie1.jpg" style="height:300px; width:300px; border-radius:50%" alt="" srcset="">
+    <p>During these hard times, we want to help you stay relaxed, calm, and focused. We'll be giving you free access to online classes and resources so you can maintain your yoga practice in the safety of your home.</p></div>
+</div>
+</section>
+<!-- section end -->
+
+
+<!-- best solution section start -->
+<section class="section">
+    <p class="title primaryColor">
+        The best solutions are usually easy
+    </p>
+    <p class="subtitle is-size-6">Find the right skin specialist or plastic surgeon in an instant. Get in touch easily.</p>
+    <div class="columns">
+        <div class="column leftColumn">
+            <img src="images/circular.png" alt="" class="circularImage" srcset="">
+        </div>
+        <div class="column rightColumn solutionContent">
+            <p class="title is-size-5 ">Pick the closest specialist</p>
+            <p class="subtitle is-size-7">We make sure that all our partner doctors are awesome.You just need to visit the specialist closest and hence most convenient for you</p>
+        </div>
+        <div class="column leftColumn ">
+            <img src="images/circular.png" alt="" class="circularImage" srcset="">
+        </div>
+        <div class="column rightColumn solutionContent">
+            <p class="title is-size-5">Cosmetology Connect</p>
+            <p class="subtitle is-size-7">If you are looking for aesthetic solutions and not specifically healthcare, get on a video call with the specialist to clar doubts before the visit</p>
+        </div>
+    </div>
+    <div class="columns">
+        <div class="column leftColumn">
+            <img src="images/circular.png" alt="" class="circularImage" srcset="">
+        </div>
+        <div class="column rightColumn solutionContent">
+            <p class="title is-size-5 ">In -person consultation</p>
+            <p class="subtitle is-size-7">Meet your specialist and discuss your concerns and expectations for clearer understanding and agreement on a plan.</p>
+        </div>
+        <div class="column leftColumn ">
+            <img src="images/circular.png" alt="" class="circularImage" srcset="">
+        </div>
+        <div class="column rightColumn solutionContent">
+            <p class="title is-size-5">Undergo your treatment</p>
+            <p class="subtitle is-size-7">You can rest assured about your results because you're in the hands of the best and they are using the latest technology. SkinGenious guaranteed.</p>
+        </div>
+    </div>
+</section>
+
+<!-- the world of skin section -->
+<section class="section pb-3">
+    <p class="title primaryColor">The world of skin, hair &amp; aesthetics, at your fingertips</p>
+    <p class="subtitle">From dermatology to fuller lips. If you need it, we have it.</p>
+    <div class="backgroundWorldOfSkin mb-1">
+        <p class="title primaryColor has-text-centered is-size-5">Dermacare</p>
+        <p class="subtitle has-text-centered is-size-7 pr-6 pl-6">
+            Meet your specialist and discuss your concerns and expactations for clearer understanding and agreement on a plan.
+        </p>
+    </div>
+    <div class="myMobilecolumns myDesktopColumns mb-1">
+        <div class="bg1">
+            <p class="title is-size-6 primaryColor centeredText p-1">Laser Treatments</p>
+            <p class="subtitle is-size-7 centeredText p-2">Meet your specialist and discuss your concerns and expactations for cle</p>
+        </div>
+        <div class="bg2">
+            <p class="title is-size-6 primaryColor centeredText p-1">Skin conerns</p>
+            <p class="subtitle is-size-7 centeredText p-2">Meet your specialist and discuss your concerns and expactations</p>
+        </div>
+    </div>
+    <div class="myMobilecolumns myDesktopColumns mb-1">
+        <div class="bg1"><p class="title is-size-6 primaryColor centeredText p-1">Anti-aging</p>
+            <p class="subtitle is-size-7 centeredText p-2">Meet your specialist and discuss your concerns and expactations.</p></div>
+        <div class="bg2"><p class="title is-size-6 primaryColor centeredText p-1">Cosmetology</p>
+            <p class="subtitle is-size-7 centeredText p-2">Meet your specialist and discuss your concerns and expactations</p></div>
+    </div>
+    <div class="myMobilecolumns myDesktopColumns mb-1">
+        <div class="bg1"><p class="title is-size-6 primaryColor centeredText p-1">Trichology</p>
+            <p class="subtitle is-size-7 centeredText p-2">Meet your specialist and discuss your concerns and expactations</p></div>
+        <div class="bg2"><p class="title is-size-6 primaryColor centeredText p-1">Plastic surgery</p>
+            <p class="subtitle is-size-7 centeredText p-2">Meet your specialist and discuss your concerns and expactations</p></div>
+    </div>
+</section>
+<section class="section pt-0">
+    <div class="bestOfBothWorlds">
+        <p class="title primaryColor centeredText is-size-4 pt-5">The best of both worlds</p>
+        <p class="subtitle centeredText is-size-6 pl-6 pr-6">The latest technology in the hands of the top experts. Just what the doctor ordered.</p>
+        <p class="centeredText">Filter treatment by category:</p>
+        <div class="myMobilecolumns myDesktopColumn ml-2 mr-2 mt-2">
+            <div class="">
+                <button class="button is-white is-rounded is-small" style="border-color: goldenrod ">Dermacare</button>
+            </div>
+            <div class="">
+                <button class="button is-white is-rounded is-small" style="border-color: goldenrod ">Laser Treatment</button>
+            </div>
+            <div class="">
+                <button class="button is-white is-rounded is-small" style="border-color: goldenrod ">Skin concern</button>
+            </div>
+        </div>
+        <div class="myMobilecolumns myDesktopColumn ml-2 mr-2 mt-2">
+            <div class="">
+                <button class="button is-white is-rounded is-small" style="border-color: goldenrod ">Anti-aging</button>
+            </div>
+            <div class="">
+                <button class="button is-white is-rounded is-small" style="border-color: goldenrod ">Costemology</button>
+            </div>
+            <div class="">
+                <button class="button is-white is-rounded is-small" style="border-color: goldenrod ">Hair/Trichology</button>
+            </div>
+        </div>
+        <div class="mt-2" style=" display: flex; align-items: center; justify-content: center;">
+            <div class="">
+                <button class="button is-white is-rounded is-small" style="border-color: goldenrod ">Anti-aging</button>
+            </div>
+        </div>
+        <div>
+            <p class="title secondaryColor is-size-4 centeredText pl-6 pr-6">Permanent beard shaping</p>
+            <p class="subtitle is-size-6 centeredText pl-6 pr-6">Meet your specialist and discuss your concerns and expactations for clearer understanding and agreement on a plan.</p>
+        </div>
+    </div>
+</section>
+<section class="section">
+    <div class="beautifulHair" style="width:100%">
+        <p class="title primaryColor centeredText is-size-4 pt-5">Beautiful hair &amp; skin, is always in!</p>
+        <p class="subtitle is-size-6 centeredText pl-6 pr-6">Being healthy also means that you look your best, always. Healthy skin &amp; hair is the most visible sign of overall health. Solutions are available for:</p>
+        <div class="myMobilecolumns myDesktopColumn ml-2 mr-2 mt-2">
+            <div class="">
+                <button class="button is-white is-rounded is-small" style="border-color: goldenrod ">Dermacare</button>
+            </div>
+            <div class="">
+                <button class="button is-white is-rounded is-small" style="border-color: goldenrod ">Laser Treatment</button>
+            </div>
+            <div class="">
+                <button class="button is-white is-rounded is-small" style="border-color: goldenrod ">Skin concern</button>
+            </div>
+        </div>
+        <div class="myMobilecolumns myDesktopColumn ml-2 mr-2 mt-2">
+            <div class="">
+                <button class="button is-white is-rounded is-small" style="border-color: goldenrod ">Anti-aging</button>
+            </div>
+            <div class="">
+                <button class="button is-white is-rounded is-small" style="border-color: goldenrod ">Costemology</button>
+            </div>
+            <div class="">
+                <button class="button is-white is-rounded is-small" style="border-color: goldenrod ">Hair/Trichology</button>
+            </div>
+        </div>
+        <div class="mt-2" style=" display: flex; align-items: center; justify-content: center;">
+            <div class="">
+                <button class="button is-white is-rounded is-small" style="border-color: goldenrod ">Anti-aging</button>
+            </div>
+        </div>
+        <div>
+            <p class="title secondaryColor is-size-4 centeredText pl-6 pr-6">Hair loss</p>
+            <p class="subtitle is-size-6 centeredText pl-6 pr-6">Meet your specialist and discuss your concerns and expactations for clearer understanding and agreement on a plan.</p>
+        </div>
+    </div>
+</section>
+</section>
+<section class="section">
+    <p class="title primaryColor">
+        Bundled with joy
+    </p>
+    <p class="subtitle is-size-6">Treatment packages for special occasions or just because you're a skinoholic.</p>
+    <p class="primaryColor centeredText">Bridal packages</p>
+    <div class=" column bridalBackground"><p class="is-size-7" style="width:50%">You are best bride.You are best bride.You are best bride.You are best bride.You are best bride.You are best bride.You are best bride</p></div>
+    </section>
+    <section class="section">
+        <p class="title primaryColor">Enter the matrix</p>
+        <p class="subtitle is-size-6">Learn more about the technologies that enable the top specialists to deliver superlative results</p>
+        <div class="centeredText"><div class="owl-carousel owl-theme">
+    <div class="item"><img src="images/lady1.jpg" style="height:300px ;width:300px; border-radius:50%" alt="" srcset="">
+    <p>During these hard times, we want to help you stay relaxed, calm, and focused. We'll be giving you free access to online classes and resources so you can maintain your yoga practice in the safety of your home.</p></div>
+    <div class="item"><img src="images/google.jpg" style="height:300px ;width:300px; border-radius:50%" alt="" srcset="">
+    <p>During these hard times, we want to help you stay relaxed, calm, and focused. We'll be giving you free access to online classes and resources so you can maintain your yoga practice in the safety of your home.</p></div>
+    <div class="item"><img src="images/selfie1.jpg" style="height:300px; width:300px; border-radius:50%" alt="" srcset="">
+    <p>During these hard times, we want to help you stay relaxed, calm, and focused. We'll be giving you free access to online classes and resources so you can maintain your yoga practice in the safety of your home.</p></div>
+</div></div>
+    </section>
+    <section class="section">
+        <p class="title primaryColor">Trust Matters. We don't take it easy</p>
+        <p class="subtitle is-size-6">Our specialists and teams strive hard to provide an amazing experience along with out of the world results.</p>
+    </section>
+    <section class="section">
+        <div class="columns centeredText" style="display:flex; width:80%">
+            <div class="column is-half-quarter"><img src="images/google.jpg" alt="" srcset=""></div>
+            <div class="column">
+                <p class="primaryColor is-size-4">* * * * *</p>
+                <p>Munira Rangwala</p>
+            </div>
+        </div>
+        <div class="is-half mb-6">
+        <p class="title primaryColor is-size-6">I would like to thank Dr. Mili for the effective treatment.</p>
+        <p class="subtitle is-size-7">We helped Munira with acne scars, hair fall and tanning. A 360 degree approach to her hair and skin requirements.</p>
+        </div>
+        <div class="columns centeredText" style="display:flex; width:80%">
+            <div class="column is-half-quarter"><img src="images/google.jpg" alt="" srcset=""></div>
+            <div class="column">
+                <p class="primaryColor is-size-4">* * * * *</p>
+                <p>Munira Rangwala</p>
+            </div>
+        </div>
+        <div class="is-half mb-6">
+        <p class="title primaryColor is-size-6">I would like to thank Dr. Mili for the effective treatment.</p>
+        <p class="subtitle is-size-7">We helped Munira with acne scars, hair fall and tanning. A 360 degree approach to her hair and skin requirements.</p>
+        </div>
+    </section>
+    <section class="section">
+        <p class="title primaryColor">FAQs</p>
+        <p class="subtitle is-size-6">Common questions we get asked.</p>
+	<div class="container">
+		<div class="card is-fullwidth mb-5">
+			<header class="card-header" style="border:2px solid goldenrod">
+				<p class="card-header-title">Question 1</p>
+				<a class="card-header-icon card-toggle">
+					<i class="fa fa-plus"></i>
+				</a>
+			</header>
+			<div class="card-content is-hidden">
+				<div class="content">
+					Content goes here <small>Small text</small>
+				</div>
+			</div>
+		</div>
+
+		<div class="card is-fullwidth mb-5 ">
+			<header class="card-header" style="border:2px solid goldenrod">
+				<p class="card-header-title">Question 2</p>
+				<a class="card-header-icon card-toggle">
+					<i class="fa fa-plus"></i>
+				</a>
+			</header>
+			<div class="card-content is-hidden">
+				<div class="content">
+					Some more content. Look at all this whitespace. <small>(Unless you are on mobile)</small>
+				</div>
+			</div>
+		</div>
+	</div>
+    </section>
+    <section class="section">
+        <p class="title primaryColor is-size-2">Latest blogs</p>
+        <p class=" is-size-6">The top specialists of India share about skin, hair, technology and more.</p>
+        <div class="owl-carousel owl-theme">
+    <div class="item"><img src="images/lady1.jpg" style="height:300px ;width:300px" alt="" srcset="">
+    <p>During these hard times, we want to help you stay relaxed, calm, and focused. We'll be giving you free access to online classes and resources so you can maintain your yoga practice in the safety of your home.</p></div>
+    <div class="item"><img src="images/google.jpg" style="height:300px ;width:300px" alt="" srcset="">
+    <p>During these hard times, we want to help you stay relaxed, calm, and focused. We'll be giving you free access to online classes and resources so you can maintain your yoga practice in the safety of your home.</p></div>
+    <div class="item"><img src="images/selfie1.jpg" style="height:300px; width:300px" alt="" srcset="">
+    <p>During these hard times, we want to help you stay relaxed, calm, and focused. We'll be giving you free access to online classes and resources so you can maintain your yoga practice in the safety of your home.</p></div>
+</div>
+    </section>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+	let cardToggles = document.getElementsByClassName('card-toggle');
+	for (let i = 0; i < cardToggles.length; i++) {
+		cardToggles[i].addEventListener('click', e => {
+			e.currentTarget.parentElement.parentElement.childNodes[3].classList.toggle('is-hidden');
+		});
+	}
+});
+
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    autoplay:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+    </script>
+    <script>
+        $(document).ready(function() {
+
+  // Check for click events on the navbar burger icon
+  $(".navbar-burger").click(function() {
+
+      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+      $(".navbar-burger").toggleClass("is-active");
+      $(".navbar-menu").toggleClass("is-active");
+
+  });
+});
+    </script>
+</body>
+
+</html>

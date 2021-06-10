@@ -1,0 +1,12 @@
+.solutionContent{
+    margin:auto
+}
+
+.myDesktopColumns{
+    display:flex;
+    justify-content:space-between;
+}
+.myDesktopColumn{
+    display:flex;
+    justify-content:space-around;
+}

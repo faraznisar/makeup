@@ -1,0 +1,40 @@
+.padding{
+    padding-top:0px !important;
+}
+
+.toTheLeft{
+    position:relative;
+    right:10px;
+}
+
+.carouselCenter{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .solutionList{
+    display:flex;
+    flex-wrap:wrap
+}
+.solutionList >div{
+    flex: 1 0 50%;
+} */
+.rightColumn{
+    display:inline-block;
+    width:56%;
+    margin:0px;
+}
+.leftColumn{
+    display:inline-block;
+    width:40%;
+    margin:0px;
+}
+.myMobilecolumns{
+    display:flex;
+    justify-content:space-between;
+}
+
+.myNavbarWidth{
+    /* max-width:100%; */
+    float:right;
+}
